@@ -1,55 +1,87 @@
-# Walmart Data Analysis ( SQL + Python Project)
 
-## Project Overview
+# 🛒 Walmart Sales Data Analysis Project
 
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+## 📊 Overview
+
+This project involves performing **exploratory data analysis (EDA)** on Walmart sales data to understand patterns and trends, followed by solving **business-related questions** using **SQL queries**. The goal is to extract actionable insights from transactional data.
 
 ---
 
-## Project Steps
+## 📁 Project Structure
 
-### 1. Set Up the Environment
-   - **Tools Used**: Visual Studio Code (VS Code), Python, SQL (MySQL and PostgreSQL)
-   - **Goal**: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
+```
+.
+├── Walmart.csv                # Raw Walmart sales data
+├── walmart_clean_data.csv     # Cleaned data used for analysis
+├── Walmart Project Queries.sql # SQL queries for business questions
+├── Project-checkpoint.ipynb   # Jupyter Notebook for EDA
+├── README.md                  # Project documentation
+```
 
-### 2. Set Up Kaggle API
-   - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
-   - 
-### 3. Download Walmart Sales Data
-   - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
-   - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
+---
 
-### 4. Install Required Libraries and Load Data
-   - **Libraries**: Install necessary Python libraries using:
-     ```bash
-     pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
-     ```
-   - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
+## 🧠 Business Questions Solved
 
-### 5. Explore the Data
-   - **Goal**: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
-   - **Analysis**: Use functions like `.info()`, `.describe()`, and `.head()` to get a quick overview of the data structure and statistics.
+1. **Different payment methods and their transaction/item counts**
+2. **Top-rated product category in each branch**
+3. **Busiest day per branch**
+4. **Quantity sold per payment method**
+5. **Min, Max, and Avg rating of product categories in each city**
+6. **Total profit per product category**
+7. **Most common payment method in each branch**
+8. **Sales categorized by time shifts (Morning, Afternoon, Evening)**
+9. **Top 5 branches with the highest revenue decrease (2022 → 2023)**
 
-### 6. Data Cleaning
-   - **Remove Duplicates**: Identify and remove duplicate entries to avoid skewed results.
-   - **Handle Missing Values**: Drop rows or columns with missing values if they are insignificant; fill values where essential.
-   - **Fix Data Types**: Ensure all columns have consistent data types (e.g., dates as `datetime`, prices as `float`).
-   - **Currency Formatting**: Use `.replace()` to handle and format currency values for analysis.
-   - **Validation**: Check for any remaining inconsistencies and verify the cleaned data.
+> All SQL queries related to these problems can be found in `Walmart Project Queries.sql`.
 
-### 7. Feature Engineering
-   - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
-   - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
+---
 
-### 8. Load Data into MySQL 
-   - **Set Up Connections**: Connect to MySQL using `sqlalchemy` and load the cleaned data into each database.
-   - **Table Creation**: Set up tables in MySQL using Python SQLAlchemy to automate table creation and data insertion.
-   - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
+## 🔧 Tools & Technologies Used
 
-### 9. SQL Analysis: Complex Queries and Business Problem Solving
-   - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
-     - Revenue trends across branches and categories.
-     - Identifying best-selling product categories.
-     - Sales performance by time, city, and payment method.
-     - Analyzing peak sales periods and customer buying patterns.
-     - Profit margin analysis by branch and category
+- **Python** (Pandas)
+- **Jupyter Notebook** for EDA
+- **MySQL** for running analytical queries
+- **Excel/CSV** for storing and cleaning the data
+
+---
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+The EDA was conducted using Python in a Jupyter Notebook. This included:
+- Inspecting data structure and data types
+- Handling missing values
+- Renaming columns
+- Data cleaning and formatting
+- Understanding sales distribution across branches, categories, and cities
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/walmart-sales-analysis.git
+   cd walmart-sales-analysis
+   ```
+
+2. Open the notebook:
+   ```bash
+   jupyter notebook Project-checkpoint.ipynb
+   ```
+
+3. Run SQL queries using MySQL Workbench or any compatible client after creating the database `walmart_db`.
+
+---
+
+## 💡 Conclusion
+
+This project showcases the integration of EDA and SQL to analyze sales data and answer real-world business questions. It emphasizes data cleaning, exploration, and query-based insight generation.
+
+---
+
+## 🙋‍♂️ Author
+
+**Abhishek Kale**  
+📧 kaleabhishek0101@gmail.com  
+📍 Pune, India  
+🧑‍💻 [LinkedIn](https://www.linkedin.com/in/abhishek-kale-66bb961b2/)
