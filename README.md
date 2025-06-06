@@ -60,7 +60,7 @@ The EDA was conducted using Python in a Jupyter Notebook. This included:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Abhishekkale93/walmart-sales-analysis.git
+   git clone https://github.com/Abhishekkale93/Walmart.git
    cd walmart-sales-analysis
    ```
 
