@@ -82,6 +82,6 @@ This project showcases the integration of EDA and SQL to analyze sales data and 
 ##  Author
 
 **Abhishek Kale**  
-📧 kaleabhishek0101@gmail.com  
-📍 Pune, India  
-🧑‍💻 [LinkedIn](https://www.linkedin.com/in/abhishek-kale-66bb961b2/)
+ kaleabhishek0101@gmail.com  
+ Pune, India  
+ [LinkedIn](https://www.linkedin.com/in/abhishek-kale-66bb961b2/)
