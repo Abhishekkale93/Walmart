@@ -1,13 +1,13 @@
 
-# 🛒 Walmart Sales Data Analysis Project
+#  Walmart Sales Data Analysis Project
 
-## 📊 Overview
+##  Overview
 
 This project involves performing **exploratory data analysis (EDA)** on Walmart sales data to understand patterns and trends, followed by solving **business-related questions** using **SQL queries**. The goal is to extract actionable insights from transactional data.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -20,7 +20,7 @@ This project involves performing **exploratory data analysis (EDA)** on Walmart 
 
 ---
 
-## 🧠 Business Questions Solved
+##  Business Questions Solved
 
 1. **Different payment methods and their transaction/item counts**
 2. **Top-rated product category in each branch**
@@ -36,7 +36,7 @@ This project involves performing **exploratory data analysis (EDA)** on Walmart 
 
 ---
 
-## 🔧 Tools & Technologies Used
+##  Tools & Technologies Used
 
 - **Python** (Pandas)
 - **Jupyter Notebook** for EDA
@@ -45,7 +45,7 @@ This project involves performing **exploratory data analysis (EDA)** on Walmart 
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 The EDA was conducted using Python in a Jupyter Notebook. This included:
 - Inspecting data structure and data types
@@ -56,11 +56,11 @@ The EDA was conducted using Python in a Jupyter Notebook. This included:
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/walmart-sales-analysis.git
+   git clone https://github.com/Abhishekkale93/walmart-sales-analysis.git
    cd walmart-sales-analysis
    ```
 
@@ -73,13 +73,13 @@ The EDA was conducted using Python in a Jupyter Notebook. This included:
 
 ---
 
-## 💡 Conclusion
+##  Conclusion
 
 This project showcases the integration of EDA and SQL to analyze sales data and answer real-world business questions. It emphasizes data cleaning, exploration, and query-based insight generation.
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Abhishek Kale**  
 📧 kaleabhishek0101@gmail.com  
